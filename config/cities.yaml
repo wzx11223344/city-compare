@@ -1,0 +1,801 @@
+# ============================================================
+# Pre-loaded economic data for Top 50 Chinese Cities
+# 中国前50城市预载经济数据 (2023/2024 基准)
+# ============================================================
+# Data sources: National Bureau of Statistics, Ministry of Finance,
+# various municipal statistical yearbooks.
+# Fallback data used when akshare fetch fails.
+# ============================================================
+
+metadata:
+  version: "2.0"
+  year: 2023
+  updated: "2025-01"
+  description: "Top 50 Chinese cities baseline economic indicators"
+  fields:
+    gdp: "地区生产总值 (亿元)"
+    gdp_growth: "GDP增速 (%)"
+    budget_revenue: "一般公共预算收入 (亿元)"
+    population: "常住人口 (万人)"
+    income_urban: "城镇居民人均可支配收入 (元)"
+    retail_sales: "社会消费品零售总额 (亿元)"
+    industry_value: "规模以上工业增加值 (亿元)"
+    fdi: "实际利用外资 (亿美元)"
+    universities: "普通高校数量 (所)"
+    rd_spending: "R&D经费支出占GDP比重 (%)"
+    hospital_beds: "每千人医疗机构床位数 (张)"
+
+cities:
+  # ---- 一线城市 (Tier 1) ----
+  "北京":
+    gdp: 43760.7
+    gdp_growth: 5.2
+    budget_revenue: 6181.1
+    population: 2188.6
+    income_urban: 84023
+    retail_sales: 14131.1
+    industry_value: 5213.8
+    fdi: 172.6
+    universities: 92
+    rd_spending: 6.5
+    hospital_beds: 7.2
+    tier: 1
+
+  "上海":
+    gdp: 47218.7
+    gdp_growth: 5.0
+    budget_revenue: 8312.5
+    population: 2487.1
+    income_urban: 82427
+    retail_sales: 18752.4
+    industry_value: 9924.2
+    fdi: 224.5
+    universities: 64
+    rd_spending: 4.4
+    hospital_beds: 6.9
+    tier: 1
+
+  "深圳":
+    gdp: 34606.4
+    gdp_growth: 6.0
+    budget_revenue: 4512.3
+    population: 1779.0
+    income_urban: 78518
+    retail_sales: 10310.2
+    industry_value: 11238.1
+    fdi: 104.3
+    universities: 14
+    rd_spending: 5.8
+    hospital_beds: 3.8
+    tier: 1
+
+  "广州":
+    gdp: 30355.7
+    gdp_growth: 4.6
+    budget_revenue: 3818.6
+    population: 1882.7
+    income_urban: 78031
+    retail_sales: 10577.6
+    industry_value: 5454.5
+    fdi: 71.2
+    universities: 83
+    rd_spending: 3.4
+    hospital_beds: 6.3
+    tier: 1
+
+  # ---- 新一线城市 (New Tier 1) ----
+  "成都":
+    gdp: 22074.7
+    gdp_growth: 6.0
+    budget_revenue: 2017.8
+    population: 2143.0
+    income_urban: 56080
+    retail_sales: 9969.2
+    industry_value: 5129.8
+    fdi: 79.8
+    universities: 58
+    rd_spending: 3.1
+    hospital_beds: 8.4
+    tier: 2
+
+  "杭州":
+    gdp: 20059.0
+    gdp_growth: 5.6
+    budget_revenue: 2840.3
+    population: 1252.2
+    income_urban: 75900
+    retail_sales: 7461.4
+    industry_value: 4675.3
+    fdi: 86.2
+    universities: 40
+    rd_spending: 3.8
+    hospital_beds: 7.5
+    tier: 2
+
+  "武汉":
+    gdp: 20011.5
+    gdp_growth: 5.7
+    budget_revenue: 1620.1
+    population: 1377.4
+    income_urban: 59607
+    retail_sales: 7584.6
+    industry_value: 4738.2
+    fdi: 58.3
+    universities: 83
+    rd_spending: 3.2
+    hospital_beds: 7.8
+    tier: 2
+
+  "南京":
+    gdp: 17421.4
+    gdp_growth: 4.7
+    budget_revenue: 1696.2
+    population: 954.7
+    income_urban: 77427
+    retail_sales: 8268.1
+    industry_value: 3902.5
+    fdi: 52.6
+    universities: 51
+    rd_spending: 3.7
+    hospital_beds: 6.9
+    tier: 2
+
+  "重庆":
+    gdp: 30145.8
+    gdp_growth: 6.1
+    budget_revenue: 2530.5
+    population: 3191.4
+    income_urban: 47480
+    retail_sales: 14345.2
+    industry_value: 6460.8
+    fdi: 98.7
+    universities: 70
+    rd_spending: 2.3
+    hospital_beds: 7.9
+    tier: 2
+
+  "天津":
+    gdp: 16737.3
+    gdp_growth: 4.3
+    budget_revenue: 2027.3
+    population: 1364.0
+    income_urban: 54954
+    retail_sales: 3957.0
+    industry_value: 5314.7
+    fsi: 61.9
+    universities: 56
+    rd_spending: 3.4
+    hospital_beds: 5.4
+    tier: 2
+
+  "苏州":
+    gdp: 24653.4
+    gdp_growth: 4.6
+    budget_revenue: 2616.8
+    population: 1295.8
+    income_urban: 79622
+    retail_sales: 9470.2
+    industry_value: 10585.0
+    fdi: 68.1
+    universities: 26
+    rd_spending: 4.1
+    hospital_beds: 5.8
+    tier: 2
+
+  "西安":
+    gdp: 12010.8
+    gdp_growth: 5.2
+    budget_revenue: 952.3
+    population: 1308.0
+    income_urban: 50556
+    retail_sales: 4824.6
+    industry_value: 2280.7
+    fdi: 45.3
+    universities: 63
+    rd_spending: 5.1
+    hospital_beds: 6.9
+    tier: 2
+
+  "长沙":
+    gdp: 14331.6
+    gdp_growth: 5.0
+    budget_revenue: 1202.6
+    population: 1051.3
+    income_urban: 62350
+    retail_sales: 5432.8
+    industry_value: 3782.1
+    fdi: 36.7
+    universities: 57
+    rd_spending: 2.8
+    hospital_beds: 8.1
+    tier: 2
+
+  "郑州":
+    gdp: 13617.8
+    gdp_growth: 7.4
+    budget_revenue: 1255.3
+    population: 1300.8
+    income_urban: 49351
+    retail_sales: 5561.4
+    industry_value: 3757.2
+    fdi: 41.5
+    universities: 67
+    rd_spending: 2.3
+    hospital_beds: 7.2
+    tier: 2
+
+  "东莞":
+    gdp: 11438.1
+    gdp_growth: 2.6
+    budget_revenue: 787.4
+    population: 1048.5
+    income_urban: 67277
+    retail_sales: 4390.5
+    industry_value: 5719.0
+    fdi: 19.8
+    universities: 9
+    rd_spending: 3.5
+    hospital_beds: 3.5
+    tier: 2
+
+  "青岛":
+    gdp: 15760.3
+    gdp_growth: 5.9
+    budget_revenue: 1390.5
+    population: 1037.2
+    income_urban: 65436
+    retail_sales: 6129.8
+    industry_value: 4128.1
+    fdi: 55.2
+    universities: 29
+    rd_spending: 2.8
+    hospital_beds: 6.8
+    tier: 2
+
+  "合肥":
+    gdp: 12673.8
+    gdp_growth: 5.8
+    budget_revenue: 992.0
+    population: 985.3
+    income_urban: 58904
+    retail_sales: 5337.8
+    industry_value: 3020.4
+    fdi: 34.9
+    universities: 54
+    rd_spending: 3.5
+    hospital_beds: 6.2
+    tier: 2
+
+  "佛山":
+    gdp: 13276.1
+    gdp_growth: 5.0
+    budget_revenue: 812.6
+    population: 961.5
+    income_urban: 67806
+    retail_sales: 3830.8
+    industry_value: 6306.3
+    fdi: 15.4
+    universities: 13
+    rd_spending: 2.8
+    hospital_beds: 5.2
+    tier: 2
+
+  "宁波":
+    gdp: 16452.8
+    gdp_growth: 5.5
+    budget_revenue: 1854.1
+    population: 969.7
+    income_urban: 76766
+    retail_sales: 5212.6
+    industry_value: 5670.1
+    fdi: 41.3
+    universities: 16
+    rd_spending: 3.0
+    hospital_beds: 5.8
+    tier: 2
+
+  "无锡":
+    gdp: 15456.2
+    gdp_growth: 6.0
+    budget_revenue: 1278.3
+    population: 749.5
+    income_urban: 74225
+    retail_sales: 3805.2
+    industry_value: 6426.3
+    fdi: 39.2
+    universities: 13
+    rd_spending: 3.4
+    hospital_beds: 6.5
+    tier: 2
+
+  "济南":
+    gdp: 12757.4
+    gdp_growth: 5.4
+    budget_revenue: 1087.2
+    population: 943.7
+    income_urban: 61608
+    retail_sales: 4976.5
+    industry_value: 2727.9
+    fdi: 34.5
+    universities: 52
+    rd_spending: 2.7
+    hospital_beds: 7.1
+    tier: 2
+
+  "福州":
+    gdp: 12928.5
+    gdp_growth: 5.2
+    budget_revenue: 900.3
+    population: 846.9
+    income_urban: 59158
+    retail_sales: 5300.4
+    industry_value: 3160.2
+    fdi: 27.8
+    universities: 35
+    rd_spending: 2.5
+    hospital_beds: 5.5
+    tier: 2
+
+  "南通":
+    gdp: 11809.8
+    gdp_growth: 4.5
+    budget_revenue: 773.2
+    population: 774.8
+    income_urban: 65437
+    retail_sales: 3982.6
+    industry_value: 5104.7
+    fdi: 29.1
+    universities: 9
+    rd_spending: 2.7
+    hospital_beds: 5.8
+    tier: 2
+
+  "泉州":
+    gdp: 12172.3
+    gdp_growth: 4.8
+    budget_revenue: 547.2
+    population: 889.9
+    income_urban: 53467
+    retail_sales: 5433.8
+    industry_value: 5267.9
+    fdi: 12.6
+    universities: 18
+    rd_spending: 1.8
+    hospital_beds: 4.5
+    tier: 2
+
+  # ---- 二线城市 (Tier 2) ----
+  "大连":
+    gdp: 8752.9
+    gdp_growth: 4.0
+    budget_revenue: 738.1
+    population: 753.9
+    income_urban: 52295
+    retail_sales: 2022.4
+    industry_value: 3076.5
+    fdi: 18.3
+    universities: 30
+    rd_spending: 2.4
+    hospital_beds: 7.3
+    tier: 3
+
+  "厦门":
+    gdp: 8066.5
+    gdp_growth: 3.1
+    budget_revenue: 932.1
+    population: 535.0
+    income_urban: 72127
+    retail_sales: 2765.2
+    industry_value: 2268.9
+    fdi: 25.4
+    universities: 16
+    rd_spending: 3.3
+    hospital_beds: 5.0
+    tier: 3
+
+  "沈阳":
+    gdp: 8070.8
+    gdp_growth: 5.2
+    budget_revenue: 835.6
+    population: 920.4
+    income_urban: 52860
+    retail_sales: 3002.1
+    industry_value: 2410.5
+    fdi: 14.2
+    universities: 45
+    rd_spending: 2.6
+    hospital_beds: 7.2
+    tier: 3
+
+  "昆明":
+    gdp: 7860.6
+    gdp_growth: 3.0
+    budget_revenue: 576.3
+    population: 868.0
+    income_urban: 52397
+    retail_sales: 3573.0
+    industry_value: 1542.6
+    fdi: 8.9
+    universities: 32
+    rd_spending: 2.0
+    hospital_beds: 7.9
+    tier: 3
+
+  "长春":
+    gdp: 7002.1
+    gdp_growth: 6.5
+    budget_revenue: 568.7
+    population: 910.2
+    income_urban: 43882
+    retail_sales: 2638.5
+    industry_value: 2847.6
+    fdi: 10.5
+    universities: 40
+    rd_spending: 2.3
+    hospital_beds: 7.3
+    tier: 3
+
+  "哈尔滨":
+    gdp: 5572.8
+    gdp_growth: 3.1
+    budget_revenue: 302.1
+    population: 982.0
+    income_urban: 41670
+    retail_sales: 2224.1
+    industry_value: 1121.0
+    fdi: 8.2
+    universities: 49
+    rd_spending: 2.5
+    hospital_beds: 7.6
+    tier: 3
+
+  "石家庄":
+    gdp: 7533.9
+    gdp_growth: 5.6
+    budget_revenue: 698.7
+    population: 1123.5
+    income_urban: 47069
+    retail_sales: 2905.8
+    industry_value: 1958.6
+    fdi: 16.3
+    universities: 44
+    rd_spending: 2.4
+    hospital_beds: 6.5
+    tier: 3
+
+  "南昌":
+    gdp: 7320.5
+    gdp_growth: 4.1
+    budget_revenue: 557.0
+    population: 656.8
+    income_urban: 51702
+    retail_sales: 2998.3
+    industry_value: 2145.6
+    fdi: 28.9
+    universities: 54
+    rd_spending: 2.1
+    hospital_beds: 6.2
+    tier: 3
+
+  "贵阳":
+    gdp: 5157.0
+    gdp_growth: 6.3
+    budget_revenue: 459.3
+    population: 640.3
+    income_urban: 48264
+    retail_sales: 2002.5
+    industry_value: 1103.8
+    fdi: 12.7
+    universities: 35
+    rd_spending: 2.2
+    hospital_beds: 7.8
+    tier: 3
+
+  "南宁":
+    gdp: 5462.1
+    gdp_growth: 3.9
+    budget_revenue: 448.3
+    population: 894.1
+    income_urban: 42410
+    retail_sales: 2536.8
+    industry_value: 958.2
+    fdi: 15.6
+    universities: 34
+    rd_spending: 1.5
+    hospital_beds: 5.9
+    tier: 3
+
+  "太原":
+    gdp: 5566.9
+    gdp_growth: 3.8
+    budget_revenue: 449.1
+    population: 547.0
+    income_urban: 42646
+    retail_sales: 1997.5
+    industry_value: 1862.7
+    fdi: 6.8
+    universities: 44
+    rd_spending: 2.5
+    hospital_beds: 8.9
+    tier: 3
+
+  "乌鲁木齐":
+    gdp: 4123.8
+    gdp_growth: 4.7
+    budget_revenue: 346.5
+    population: 408.5
+    income_urban: 44972
+    retail_sales: 1257.8
+    industry_value: 1432.5
+    fdi: 4.2
+    universities: 23
+    rd_spending: 1.2
+    hospital_beds: 8.6
+    tier: 3
+
+  "兰州":
+    gdp: 3348.6
+    gdp_growth: 3.6
+    budget_revenue: 245.8
+    population: 442.5
+    income_urban: 44004
+    retail_sales: 1702.1
+    industry_value: 935.4
+    fdi: 2.8
+    universities: 28
+    rd_spending: 2.2
+    hospital_beds: 7.0
+    tier: 3
+
+  "呼和浩特":
+    gdp: 3551.6
+    gdp_growth: 5.3
+    budget_revenue: 238.2
+    population: 360.4
+    income_urban: 53574
+    retail_sales: 1128.5
+    industry_value: 1052.3
+    fdi: 5.1
+    universities: 23
+    rd_spending: 1.8
+    hospital_beds: 6.8
+    tier: 3
+
+  "海口":
+    gdp: 2120.4
+    gdp_growth: 10.1
+    budget_revenue: 217.6
+    population: 300.2
+    income_urban: 41821
+    retail_sales: 1042.5
+    industry_value: 315.2
+    fdi: 8.6
+    universities: 12
+    rd_spending: 1.6
+    hospital_beds: 6.5
+    tier: 3
+
+  "银川":
+    gdp: 2543.3
+    gdp_growth: 6.5
+    budget_revenue: 199.2
+    population: 291.4
+    income_urban: 40987
+    retail_sales: 810.2
+    industry_value: 1268.5
+    fdi: 3.1
+    universities: 16
+    rd_spending: 1.9
+    hospital_beds: 7.2
+    tier: 3
+
+  "西宁":
+    gdp: 1872.3
+    gdp_growth: 4.8
+    budget_revenue: 152.3
+    population: 248.1
+    income_urban: 39654
+    retail_sales: 580.1
+    industry_value: 568.2
+    fdi: 1.5
+    universities: 12
+    rd_spending: 1.3
+    hospital_beds: 7.5
+    tier: 3
+
+  # ---- 强三线城市 (Strong Tier 3) ----
+  "温州":
+    gdp: 8454.3
+    gdp_growth: 6.9
+    budget_revenue: 694.8
+    population: 976.1
+    income_urban: 71494
+    retail_sales: 4126.8
+    industry_value: 2134.5
+    fdi: 8.3
+    universities: 11
+    rd_spending: 2.4
+    hospital_beds: 4.5
+    tier: 3
+
+  "徐州":
+    gdp: 8901.0
+    gdp_growth: 5.2
+    budget_revenue: 573.4
+    population: 901.8
+    income_urban: 42720
+    retail_sales: 4464.2
+    industry_value: 2180.6
+    fdi: 22.1
+    universities: 12
+    rd_spending: 2.0
+    hospital_beds: 6.0
+    tier: 3
+
+  "烟台":
+    gdp: 10162.5
+    gdp_growth: 6.6
+    budget_revenue: 776.3
+    population: 705.9
+    income_urban: 58245
+    retail_sales: 3735.1
+    industry_value: 3952.8
+    fdi: 26.7
+    universities: 17
+    rd_spending: 2.3
+    hospital_beds: 6.4
+    tier: 3
+
+  "唐山":
+    gdp: 9133.3
+    gdp_growth: 5.0
+    budget_revenue: 561.2
+    population: 771.6
+    income_urban: 48054
+    retail_sales: 2670.5
+    industry_value: 4872.4
+    fdi: 13.5
+    universities: 11
+    rd_spending: 1.8
+    hospital_beds: 5.6
+    tier: 3
+
+  "绍兴":
+    gdp: 7722.5
+    gdp_growth: 6.8
+    budget_revenue: 612.8
+    population: 539.4
+    income_urban: 75095
+    retail_sales: 2798.6
+    industry_value: 2865.4
+    fdi: 12.4
+    universities: 11
+    rd_spending: 2.9
+    hospital_beds: 5.8
+    tier: 3
+
+  "嘉兴":
+    gdp: 7034.8
+    gdp_growth: 6.1
+    budget_revenue: 631.2
+    population: 558.4
+    income_urban: 72911
+    retail_sales: 2568.3
+    industry_value: 3280.5
+    fdi: 24.3
+    universities: 10
+    rd_spending: 3.2
+    hospital_beds: 6.2
+    tier: 3
+
+  "珠海":
+    gdp: 4472.6
+    gdp_growth: 4.2
+    budget_revenue: 467.8
+    population: 249.4
+    income_urban: 69003
+    retail_sales: 1130.5
+    industry_value: 1764.5
+    fdi: 23.9
+    universities: 10
+    rd_spending: 3.1
+    hospital_beds: 5.0
+    tier: 3
+
+  "常州":
+    gdp: 10114.6
+    gdp_growth: 5.8
+    budget_revenue: 806.9
+    population: 537.5
+    income_urban: 71456
+    retail_sales: 3082.1
+    industry_value: 4568.2
+    fdi: 32.6
+    universities: 11
+    rd_spending: 3.3
+    hospital_beds: 6.0
+    tier: 3
+
+  "惠州":
+    gdp: 5766.5
+    gdp_growth: 5.6
+    budget_revenue: 498.2
+    population: 607.3
+    income_urban: 52587
+    retail_sales: 2175.8
+    industry_value: 2530.6
+    fdi: 18.5
+    universities: 6
+    rd_spending: 2.8
+    hospital_beds: 4.8
+    tier: 3
+
+  "扬州":
+    gdp: 7416.4
+    gdp_growth: 5.4
+    budget_revenue: 378.5
+    population: 458.4
+    income_urban: 59420
+    retail_sales: 1796.5
+    industry_value: 2874.5
+    fdi: 15.2
+    universities: 9
+    rd_spending: 2.4
+    hospital_beds: 5.6
+    tier: 3
+
+  "盐城":
+    gdp: 7462.3
+    gdp_growth: 5.5
+    budget_revenue: 482.1
+    population: 668.9
+    income_urban: 46632
+    retail_sales: 2952.8
+    industry_value: 3105.2
+    fdi: 14.8
+    universities: 6
+    rd_spending: 2.1
+    hospital_beds: 5.5
+    tier: 3
+
+  "泰州":
+    gdp: 6703.8
+    gdp_growth: 5.3
+    budget_revenue: 423.6
+    population: 450.2
+    income_urban: 58025
+    retail_sales: 1782.6
+    industry_value: 2758.9
+    fdi: 11.5
+    universities: 7
+    rd_spending: 2.6
+    hospital_beds: 5.8
+    tier: 3
+
+  "临沂":
+    gdp: 5955.8
+    gdp_growth: 5.8
+    budget_revenue: 456.7
+    population: 1099.3
+    income_urban: 44215
+    retail_sales: 3200.2
+    industry_value: 1620.4
+    fdi: 9.8
+    universities: 5
+    rd_spending: 1.7
+    hospital_beds: 5.2
+    tier: 3
+
+  "洛阳":
+    gdp: 5481.6
+    gdp_growth: 3.5
+    budget_revenue: 408.1
+    population: 707.9
+    income_urban: 45652
+    retail_sales: 2514.5
+    industry_value: 2176.8
+    fdi: 17.3
+    universities: 8
+    rd_spending: 2.5
+    hospital_beds: 6.9
+    tier: 3
